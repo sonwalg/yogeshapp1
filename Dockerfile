@@ -1,5 +1,5 @@
 # Use the official Nginx image as the base image
-FROM public.ecr.aws/n2w1l6f1/nginx:latest
+FROM nginx:latest
 
 # Remove the default index.html file that comes with the base image.
 RUN rm /usr/share/nginx/html/index.html
